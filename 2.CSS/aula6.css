@@ -1,0 +1,30 @@
+/*css é composto de 
+seletor
+propriedade
+valor
+
+background é o fundo todo da página, é o próprio body*/
+body {
+    background: #dfdfdf; /*RGB: red green blue RBGA, A é a transparência, significa Alpha
+    os números indicam a porcentagem de cada cor
+    também é usado o nº hexadecimal #FFFF00, os dois primeiros dígitos correspondem ao red, 
+    os dois do meio ao green e os dois últimos ao blue*/
+}
+
+.foto-principal {
+    width: 200px ;
+
+    border: 2px solid #fff; /*shorthand*/
+    border-radius: 50px;  
+    margin: 30px ;
+    padding: 100px; /*padding dá um afastamento interno, o valor 10px é usado para todos os lados
+    caso eu queira valores diferentes para os lados é preciso usar 10px 20px 10px 20px, o mesmo 
+    acontece com margi, um único valor define todos os lados*/
+}
+
+/*p {
+    color: #22222222; /*há conversores online para mudar códigos das cores de RGB para Hexa 
+    e vice e versa
+    https://cssgenerator.org/rgba-and-hex-color-generator.html 
+    
+}*/

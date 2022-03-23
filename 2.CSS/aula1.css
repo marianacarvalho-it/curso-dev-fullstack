@@ -1,0 +1,22 @@
+/*css é composto de 
+seletor
+propriedade
+valor
+
+background é o fundo todo da página, é o próprio body*/
+body {
+    background: red;
+}
+
+h3 { /*para chamar a classe .verde use (ponto)(.blablabla), irá alterar somente as tags h3 
+    para cor verde*/
+    color: blue; 
+}
+
+.foto {
+    width: 500px;
+}
+
+#titulo-principal { /*usa-se hastag para chamar o ID*/
+color: brown;
+}

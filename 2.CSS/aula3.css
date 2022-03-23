@@ -1,0 +1,20 @@
+/*css é composto de 
+seletor
+propriedade
+valor
+
+background é o fundo todo da página, é o próprio body*/
+body {
+    background-image: url(background.jpg);
+    /*a imagem não é tão grande, mas se repete para cobrir todo o espaço*/
+    /*background-repeat: no-repeat; /*há a opção de não repetir, aí então a imagem fica no 
+    tamanho que é realmente*/
+    /*background-position: 100% 10%; /*1º valor é a distância que eu quero do lado esq, e o 2º valor é a distância que eu quero do topo*/
+    /*background-position: right center;*/
+    /*background-position: center center;*/
+    background-size: cover;/*cobre a página toda*/
+    background-attachment: fixed;/*deixa o backgroung fixo, só move o conteúdo*/
+}
+.foto {
+    width: 250px;
+}

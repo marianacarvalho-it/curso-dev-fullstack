@@ -1,0 +1,31 @@
+/*css é composto de 
+seletor
+propriedade
+valor
+
+background é o fundo todo da página, é o próprio body*/
+body {
+    background: #dfdfdf; /*RGB: red green blue RBGA, A é a transparência, significa Alpha
+    os números indicam a porcentagem de cada cor
+    também é usado o nº hexadecimal #FFFF00, os dois primeiros dígitos correspondem ao red, 
+    os dois do meio ao green e os dois últimos ao blue*/
+}
+
+.foto-principal {
+    width: 200px ;
+    border: 2px solid #fff; /*conhecido como shorthand, px de espessura da borda, qual tipo 
+    de borda e a cor da borda.
+    border-width:; 
+    border-style:; 
+    border-color:; são os mesmos que está escrito na linha de cima*/
+    border-radius: 100px; /*para deixar a imagem redonda usar 50% ou 100%?*/
+    /*é possível alterar os lados da borda de forma diferente
+    border-radius: 100% 0 100% 0; se consegue formatos bem diferentes*/
+}
+
+p {
+    color: #0a0a0a22; /*há conversores online para mudar códigos das cores de RGB para Hexa 
+    e vice e versa
+    https://cssgenerator.org/rgba-and-hex-color-generator.html */
+    
+}

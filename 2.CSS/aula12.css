@@ -1,0 +1,99 @@
+body {
+    background: #dfdfdf; 
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile {
+        text-align: center;
+    /* background-color: rgb(196, 190, 190);*/
+    margin-bottom: 40px; /*espaço entre links e apresentação*/
+}
+h1{
+    margin-bottom: 0;
+    margin-top: 20px; /*espaçamento entre foto e nome*/
+    letter-spacing: -1px;/*aumenta o espaçamento entre as letras*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+}
+/*alterou o margin do h1 e h2 para deixar as duas frases bem pertinho*/
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(78, 74, 74);
+    font-weight: 100 ;/* para espessura da fonte*/
+    letter-spacing: -1px;/*aumenta o espaçamento entre as letras*/
+}
+
+h4 {
+    margin-bottom: 0;
+}
+h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-style: italic;
+}
+.foto-principal {
+    width: 200px ;
+    border: 2px solid #fff; 
+    border-radius: 50%;  
+    margin: 30px 30px 0 30px;
+    box-shadow: 0px 0px 8px black; /*1º distância da sombra na horizontal, 2º na vertical, 3º
+    desfoque e 4º a cor da shadow*/
+    padding: 1px; 
+    } /*padding dá um afastamento interno, o valor 10px é usado para todos os lados
+    caso eu queira valores diferentes para os lados é preciso usar 10px 20px 10px 20px, o mesmo 
+    acontece com margin, um único valor define todos os lados.*/
+    /*border, margin and padding são o box modal (a maneira como uma caixa se comporta dentro do 
+    CSS. 
+    Box shadow: */
+
+    .caixa { /* a div precisa de tamanho de altura e largurapor si só ela tem 0px de altura e largura */
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border: 5px solid grey;
+    border-radius: 8px;
+    margin: 0 auto; /*4 valores: top, right, bottom and left, nesse caso fica 0px em top and
+    bottom e auto para right and left centralizar o objeto*/
+    }
+
+    p {
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .social-links {
+        text-decoration: none; /* serve para remover o underscore dos links */
+    }
+
+    .social-icons {
+        width: 20px;
+        /*height: auto; (não precisa colocar altura)*/
+    }
+
+    .github {
+        margin: 0 20px 0 20px;
+    }
+
+    .jobs-list {
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    .footer {  /*tem uma margem pequena do lado direito e esquerdo de 8px, automática do body
+        vamos tirar essa margin */
+        margin-top: 40px;
+        background-color: rgb(7, 7, 7);
+        color: white;
+        text-align: center;
+        padding: 10px 0; /*padding no top and bottom, para a frase ter um espaçamento e se manter no meio*/
+    }

@@ -1,0 +1,28 @@
+/*css é composto de 
+seletor
+propriedade
+valor
+
+background é o fundo todo da página, é o próprio body*/
+body {
+    background: #dfdfdf; 
+}
+
+p {
+    color: rgb(34, 34, 34);
+}
+
+.foto-principal {
+    width: 200px ;
+    border: 2px solid #fff; 
+    border-radius: 50%;  
+    margin: 20px ;
+    box-shadow: 0px 0px 8px black; /*1º distância da sombra na horizontal, 2º na vertical, 3º
+    desfoque e 4º a cor da shadow*/
+    padding: 1px; /*padding dá um afastamento interno, o valor 10px é usado para todos os lados
+    caso eu queira valores diferentes para os lados é preciso usar 10px 20px 10px 20px, o mesmo 
+    acontece com margin, um único valor define todos os lados.*/
+} /*border, margin and padding são o box modal (a maneira como uma caixa se comporta dentro do 
+CSS. 
+Box shadow*/
+
